@@ -68,5 +68,27 @@ public class Main {
         double diffBetweenNewAndOldKristinaSalary = newKristinaSalaryFor12Months - oldKristinaSalaryFor12Months;
         System.out.println("Маша теперь получает - " + newMashaSalary + " рублей. Годовой доход вырос на " + diffBetweenNewAndOldMashaSalary + " рублей" + " | " + "Денис теперь получает - " + newDenisSalary + " рублей. Годовой доход вырос на " + diffBetweenNewAndOldDenisSalary + " рублей" + " | " + "Кристина теперь получает - " + newKristinaSalary + " рублей. Годовой доход вырос на " + diffBetweenNewAndOldKristinaSalary + " рублей");
 
+        // Задача 6:
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+        int result = a * (b + (c - d * e));
+        System.out.println(-result);
+
+        // Задача 7:
+        int a1 = 5;
+        int b1 = 7;
+        a1=a1+b1; //12
+        b1=a1-b1;//7
+        a1=a1-b1;
+        System.out.println(a1+" "+b1);
+
+        // Задача 8:
+        int a2 = 123;
+        int b2 = a2%100/10;
+        System.out.println(b2);
+
     }
 }
